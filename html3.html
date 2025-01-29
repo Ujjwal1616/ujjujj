@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup Form</title>
+    <link rel="stylesheet" href="center.css">
+</head>
+<body>
+    <style>
+        body{
+            background-image: url(CloudMed_logo.jpg);
+            height: 100vh;
+            position: relative;
+            background-size: cover;
+            
+    
+        }
+
+    </style>
+    
+    <div class="container4">
+        <form action="html1.html" method="get">
+            <h3>Enter Your Details</h3>
+
+            <!-- Name -->
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter your name" required>
+
+            <!-- Email -->
+            <label for="emailid">Email ID:</label>
+            <input type="email" id="emailid" name="emailid" placeholder="Enter your email ID" required>
+
+            <!-- Date of Birth -->
+            <label for="DOB">Date of Birth:</label>
+            <input type="date" id="DOB" name="DOB" required>
+
+            <!-- Phone Number -->
+            <label for="Phonenumber">Phone No:</label>
+            <input type="tel" id="Phonenumber" name="Phonenumber" placeholder="Enter your phone number" required>
+
+            <!-- Country -->
+            <label for="country">Country:</label>
+            <select id="country" name="country" required>
+                <option value="">--Select Your Country--</option>
+                <option value="IN">India</option>
+                <option value="US">United States</option>
+                <option value="CA">Canada</option>
+                <option value="GB">United Kingdom</option>
+                <option value="AU">Australia</option>
+                <option value="FR">France</option>
+                <option value="DE">Germany</option>
+                <option value="JP">Japan</option>
+                <option value="CN">China</option>
+                <option value="BR">Brazil</option>
+                <option value="ZA">South Africa</option>
+            </select>
+
+            <!-- Submit Button -->
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</body>
+</html>

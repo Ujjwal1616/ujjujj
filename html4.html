@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forgot Password?</title>
+    <link rel="stylesheet" href="center.css">
+    <link rel="stylesheet" href="container5">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: rgba(43, 185, 171, 0.291);
+            background-image: url(CloudMed_logo.jpg);
+             
+        }
+      
+        form {
+            max-width: 250px;
+            width: 50%;
+        }
+        input {
+            width: 150%;
+            padding: 30px;
+            margin: 15px 0;
+            text-align: center;
+            justify-content: center;
+
+        }
+        button{
+            width: 150%;
+            padding: 30px;
+            margin: 15px 0;
+            text-align: center; 
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+   
+    <div>
+        
+      <div class="container5"> 
+        <div class="jpg">
+            <h3>CloudMed</h3>
+            <img src="CloudMed_logo.jpg" alt="CloudMed Logo">
+            <h3>Forgot Password?</h3>
+        </div>
+        <form action="/password-reset" method="get">
+            <label for="email"></label><br>
+            <input type="email" id="email" name="email" placeholder="enter username,Email or Phone number" required>
+            <button type="submit">Reset Password</button>
+        </div>
+        </form>
+    </div>
+</body>
+</html>
+
+
+
+
